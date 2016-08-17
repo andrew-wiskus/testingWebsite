@@ -1,6 +1,6 @@
 .slide1{
   background-image: url('test1.jpg');
-  height: 500px;
+  height: 350px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -8,7 +8,7 @@
 
 .slide2{
   background-image: url('test2.jpg');
-  height: 500px;
+  height: 350px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,18 +16,25 @@
 
 .slide3{
   background-image: url('test3.jpg');
-  height: 500px;
+  height: 350px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.carousel-caption h1{
-  font-size: 5.4em;
-  font-family: 'Pacifico', cursive;
-  padding-bottom: .4em;
+.testIcon {
+  height: 50px;
+  width: 40px;
+  padding-right: 10px;
 }
-
-.carousel-caption p{
-  font-size: 2em;
+.carousel-indicators{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  bottom: 5px;
+}
+.carousel-caption{
+  position:absolute;
+  bottom:-15px;
+  font-size: 1.5em;
+  font-family:'Helvetica';
 }
