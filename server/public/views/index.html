@@ -40,6 +40,7 @@
                     <a class="pull-left" href="#"><!-- <img class="testIcon" src="none"> --></a>
                 </div>
 
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
@@ -68,6 +69,7 @@
             <!-- /.container-fluid -->
         </nav>
 
+        <div class="seperatorBar0"></div>
 
         <!--HEADER CAROUSEL -->
         <div id="theCarousel" class="carousel" data-ride="carousel">
@@ -113,20 +115,146 @@
             </a>
 
         </div>
+        <div class="seperatorBar1"></div>
+
+        <p class="quoteText class1 class2 jumbotron">
+            I've had MDsQualityPainting come back to my house for every paint job for the past 20 years, they've never let me down"
+            <br /><span class="quote"><em>-Drew Wiskus, client since 1986'</em></span>
+        </p>
+        <div class="seperatorBar2"></div>
         <div class="bio">
-            <!-- Add Bio -->
-            <!-- add contact link button within -->
+            <div class="col-lg-3 col-md-9">
+                <img src="/imgs/logoBioTest.jpg" class="logoBioImg" />
+            </div>
+            <div class="col-lg-9 col-md-9">
+                <h1 class="bioTitle">MD's Quality Painting</h1>
+                <p class="bioText">
+                    Here is a description example of the company, most likely talking about all the great things this company can bring to you and yours, like our awesome service and all the great things you can expect with MD's Quality Painting This might be a little longer
+                    because We can talk about all sorts of stuff ya know like this is your main bio, make that shit count dude.
+                </p>
+            </div>
         </div>
-        <div class="portfolio-nav">
-            <!-- Add picture nav/portfolio nav -->
-        </div>
+        <button type="submit" class="btn btn-default firstContact">Contact Us Today!</button>
+
+        <div class="seperatorBar3"></div>
+
         <div class="portfolio-display">
-            <!-- Add display the responds to portfolioNav -->
+            <div class="displayNav">
+                <!--Button divs -->
+                <div class="displayNav1 col-lg-4 col-md-4">
+                    <button type="submit" class="btn btn-default navbutton1">Outdoor Siding</button>
+                </div>
+                <div class="displayNav2 col-lg-4 col-md-4">
+                    <button type="submit" class="btn btn-default navbutton2">Indoor Home/Buisness</button>
+                </div>
+                <div class="displayNav3 col-lg-4 col-md-4">
+                    <button type="submit" class="btn btn-default navbutton3">Commercial</button>
+                </div>
+
+            </div>
+            <!-- Add display that responds to portfolioNav -->
             <!-- photo displays have small captions -->
+
+
+            <div id="portfolioCarousel" class="carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#portfolioCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#portfolioCarousel" data-slide-to="1"></li>
+                    <li data-target="#portfolioCarousel" data-slide-to="2"></li>
+                </ol>
+
+
+                <div class="carousel-inner portfolioCarousel">
+
+                    <div class="item active">
+                        <div class="foo"></div>
+                        <div class="carousel-caption">
+                            <p>Its soooooo pretty, like woah</p>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="foo1"></div>
+                        <div class="carousel-caption">
+                            <p>Getting this shiz down</p>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="foo2"></div>
+                        <div class="carousel-caption">
+                            <p>Tootin my own horn yeeee</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <a class="left carousel-control" href="#portfolioCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"> </span>
+                </a>
+                <a class="right carousel-control" href="#portfolioCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </div>
+
+
+
             <!-- clicking brings up englarged photo w/ caption -->
             <!-- display 3 but have scroll carousel style -->
+
         </div>
+        <div class="seperatorBar4"></div>
         <div class="contact-link">
+            <div class="jumbotron contactHeader">
+                <h1 class="contactUsHeader">Contact Us Today!</h1>
+                <p class="contactUsText">
+                    Serving the northfield area and also other things that can be served then we can talk a little more about our company insert a funny story? Do what ever you want. But end with a promise and then also a signiture or something legit like that.
+                </p>
+
+            </div>
+            <div class="leftContent col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                <form id="book-form">
+                    <div class="form-group">
+                        <label for="title">Name:</label>
+                        <input type="text" id="title" name="title" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="author">Phone Number and Email:</label>
+                        <input type="text" id="author" name="author" class="form-control" />
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="edition">Where is this job located?:</label>
+                        <input type="text" id="edition" name="edition" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="jobDetails">Job Details: Type of space? Requests or concerns?</label>
+                        <input type="text" id="jobDetails" name="jobDetails" class="form-control" />
+                    </div>
+                    <p class="expectUs">
+                        <em>Expect us to contact you within 1-2 buisness days!</em>
+                    </p>
+                    <button id="book-submit" class="btn btn-default">Send Job Details!</button>
+                </form>
+            </div>
+            <div class="rightContent col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <h3 class="phoneText">Call Us Today:</h3>
+                <p class="phoneNumber">507-301-9742</p>
+                <h3 class="emailText">Send Us An Email:</h3>
+                <p class="emailLink">wskcontact@gmail.com</p>
+                <h3 class="endHead">Our Promise</h3>
+                <p class="endText">
+                    We promise to always give you top quality service and paint your house so good you dont even know how good like damn son its really good
+                </p>
+                <img id="sig" src="/imgs/testSig.jpg" />
+
+            </div>
             <!-- Add conclusion blurb/photo + links -->
         </div>
 
