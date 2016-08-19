@@ -1,27 +1,56 @@
+body{
+ background-color: #D7FFF1;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a{
+  background-color: #1B2F33;
+}
+.locations{
+  text-align: center;
+  height: 500px;
+
+}
+.jumbotron{
+  background-color:#DEDBD2;
+  border-radius: 15px;
+
+}
 .navbar {
   margin-bottom:0;
+  height:75px;
+  color: #F7E1D7;
+  background-color: #1B2F33;
+  border: none;
+  border-radius: 0;
+  padding-top: 10px;
 }
 .contactHeader{
   text-align: center;
   height: 200px;
-  padding: 0;
-  padding-top: 5px;
+  padding-top: 0.5px;
 }
 
+.contactUsText{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 0.9em;
+}
 .btn-default{
-  background-color: #fff0f0;
+  background-color: #C1BDB3;
 }
 
 #jobDetails {
   height: 100px;
 }
-#portfolioCarousel {
-  top: 50px;
+.portfolioCarousel {
+  height: 600px;
 }
 .phoneText{
   position: absolute;
     z-index: 1;
     font-size: 2.0em;
+
 }
 
 .phoneNumber{
@@ -29,12 +58,14 @@
     z-index: 1;
         font-size: 1.3em;
     top: 50px;
+
 }
 .emailText{
   position: absolute;
     z-index: 1;
     font-size: 2.0em;
     top: 70px;
+
 }
 
 .emailLink {
@@ -42,6 +73,7 @@
     z-index: 1;
         font-size: 1.3em;
     top: 120px;
+      font-color: #F7E1D7;
 }
 
 .endHead {
@@ -74,7 +106,7 @@
 }
 .foo{
   background-image: url('test1.jpg');
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -82,7 +114,7 @@
 
 .foo1{
   background-image: url('test2.jpg');
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -90,7 +122,7 @@
 
 .foo2{
   background-image: url('test3.jpg');
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -98,7 +130,7 @@
 
 .slide1{
   background-image: url('test1.jpg');
-  height: 400px;
+  height: 590px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -106,7 +138,7 @@
 
 .slide2{
   background-image: url('test2.jpg');
-  height: 400px;
+  height: 600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -114,7 +146,7 @@
 
 .slide3{
   background-image: url('test3.jpg');
-  height: 400px;
+  height: 600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -181,25 +213,25 @@
 .seperatorBar0 {
   height: 15px;
   width: 100%;
-  background-color: #895B6D;
+  background-color: #FF3864;
 }
 .seperatorBar1 {
   height: 15px;
   width: 100%;
-  background-color: #895B6D;
+  background-color: #FF3864;
 }
 
 .seperatorBar2 {
   height: 15px;
   width: 100%;
-  background-color: #895B6D;
+  background-color: #FF3864;
 }
 
 .seperatorBar3 {
   margin-top: 20px;
   height: 15px;
   width: 100%;
-  background-color: #895B6D;
+  background-color: #FF3864;
 }
 
 .seperatorBar4 {
@@ -207,30 +239,31 @@
   margin-bottom: 15px;
   height: 15px;
   width: 100%;
-  background-color: #895B6D;
+  background-color: #FF3864;
 }
 
 
 .firstContact {
   display: block;
-  top: 10px;
-  width: 600px;
+
+  width: 800px;
   height: 80px;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
   font-size: 3.2em;
-  background-color: papayawhip;
+  font-color: red;
 }
 .quoteText{
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-
+    padding: 30px;
     font-size: 2.0em;
     font-weight: bold;
     text-align: center;
+    font-color: red;
 }
 .quote {
   font-weight: normal;
@@ -239,44 +272,77 @@
 
 
 .portfolio-display{
-  height:650px;
-  width: 90%;
+  height:600px;
+  width: 50%;
+  padding: 0;
+  border: 20px solid #1B2F33;
   /*margin-left: 5%;*/
   margin: 0 auto;
-  background-color: slategrey
-  opacity: 0.1;
+  position: relative;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   margin-top: 10px;
 }
 
 .sideOfDisplay{
   height: 100px;
-  background-color: skyblue;
+
+}
+.buttonVertical{
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .displayNav {
-  height: 100px;
-  width:100%;
-  margin: 0 auto;
-  padding-left: 5%;
-  padding-right: 5%;
-
+  padding-left: 50px;
+  padding-top: 55px;
+  height: 600px;
 }
 .displayNav1{
   padding: 0;
+  position: relative;
   height: 100px;
-
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+transform: rotate(-90deg);
+  left: 20px;
+  top: 38px;
+  border-radius: 0;
+  border: none;
 }
 
 .displayNav2{
   padding: 0;
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 10px;
   height: 100px;
+  width: 200px;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  top: 130px;
+  left: 20px;
 
 }
 
 .displayNav3{
+    position: relative;
   padding: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
   height: 100px;
-
+  width: 200px;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+transform: rotate(-90deg);
+top: 222px;
+left: 20px;
+border-radius: 0;
 }
 
 
@@ -292,23 +358,40 @@
 /* not truely center */
 .navbutton1 {
   width: 100%;
-  height: 100%;
-margin: 10px;
+  height: 70%;
+  margin: 10px;
+  font-size: 1.8em;
+  border-radius: 10px;
+  border: none;
+  background-color: #1B2F33;
+    color: #D7FFF1;
+    border: 2px solid #D7FFF1;
 
 
 }
 
 .navbutton2 {
   width: 100%;
-  height: 100%;
-
-margin: 10px;
+  height: 70%;
+  margin: 10px;
+  font-size: 1.8em;
+  border-radius: 10px;
+  border: none;
+  background-color: #1B2F33;
+    color: #D7FFF1;
+        border: 2px solid #D7FFF1;
 
 }
 
 .navbutton3 {
   width: 100%;
-  height: 100%;
-margin: 10px;
+  height: 70%;
+  margin: 10px;
+  font-size: 1.8em;
+  border-radius: 10px;
+  border: none;
+  background-color: #1B2F33;
+  color: #D7FFF1;
+      border: 2px solid #D7FFF1;
 
 }
